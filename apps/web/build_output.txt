@@ -1,0 +1,87 @@
+﻿node.exe : ??Warning: Next.js inferred your workspac
+e root, but it may not be correct.
+位於 線路:1 字元:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program F
+iles\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (??Warn 
+   ing: Next...not be correct.:String) [], RemoteE  
+  xception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ We detected multiple lockfiles and selected the dir
+ectory of C:\Users\eric0\OneDrive\獢\hero-booking\p
+ackage-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in yo
+ur Next.js config, or consider removing one of the l
+ockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/con
+fig/next-config-js/turbopack#root-directory for more
+ information.
+ Detected additional lockfiles: 
+   * C:\Users\eric0\OneDrive\獢\hero-booking\apps\w
+eb\package-lock.json
+
+??Next.js 16.1.6 (Turbopack)
+- Environments: .env.local
+
+  Creating an optimized production build ...
+??Compiled successfully in 4.4s
+  Running TypeScript ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/33) ...
+  Generating static pages using 15 workers (8/33) 
+  Generating static pages using 15 workers (16/33) 
+  Generating static pages using 15 workers (24/33) 
+??Generating static pages using 15 workers (33/33) in 260.7ms
+  Finalizing page optimization ...
+
+Route (app)
+????/
+????/_not-found
+????/admin
+????/admin/appointments
+????/admin/dashboard
+????/admin/services
+????/admin/settings/payments
+????/admin/staff-schedules
+??? /api/admin/appointments
+??? /api/admin/appointments/[id]
+??? /api/admin/kpi
+??? /api/admin/services
+??? /api/admin/services/[id]
+??? /api/admin/settings/payments
+??? /api/admin/staff-schedules
+??? /api/debug/whoami
+??? /api/me/roles
+??? /api/merchant/apply
+??? /api/platform/merchant-applications
+??? /api/platform/merchant-applications/[id]
+??? /api/platform/merchant-applications/[id]/approve
+??? /api/platform/merchant-applications/[id]/reject
+??? /api/platform/merchants
+??? /api/platform/merchants/[merchantId]
+??? /api/route-after-login
+????/auth/callback
+????/console
+????/console/login
+????/debug/whoami
+????/login
+????/merchant/apply
+????/platform
+????/platform/merchant
+????/platform/merchant-applications
+??? /platform/merchant-applications/[id]
+??? /platform/merchant-applications/[id]/approve
+??? /platform/merchant/[merchantId]
+????/platform/merchants
+??? /platform/merchants/[merchantId]
+????/pricing
+????/register
+??? /store/[tenantId]
+
+
+?? (Static)   prerendered as static content
+?  (Dynamic)  server-rendered on demand
+
