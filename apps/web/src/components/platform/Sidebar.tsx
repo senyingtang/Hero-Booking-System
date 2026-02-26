@@ -116,6 +116,7 @@ function buildMerchantMenu(): MenuItem[] {
         { label: "服務項目", href: "/admin/services", icon: Icons.scissors },
         { label: "員工班表", href: "/admin/staff-schedules", icon: Icons.clock },
         { label: "金流設定", href: "/admin/settings/payments", icon: Icons.cog },
+        { label: "訂閱方案", href: "/admin/subscription", icon: Icons.creditCard },
     ];
 }
 

@@ -6,7 +6,7 @@ import { useTenant } from "@/components/providers/TenantProvider";
 import { Calendar, dateFnsLocalizer, type Event } from "react-big-calendar";
 import { format, parse, startOfWeek, getDay, addDays } from "date-fns";
 import { zhTW } from "date-fns/locale/zh-TW";
-import "react-big-calendar/lib/css/react-big-calendar.css";
+
 
 type Schedule = {
     id: string;
